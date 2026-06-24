@@ -30,7 +30,7 @@ st.caption(
     f"**LLM:** `{info['llm_provider']}`  ·  "
     f"**Data:** `{info['matcher_backend']}`  ·  "
     f"**{info['listings_loaded']} listings loaded**  ·  "
-    "JSON API at `/inquiry` · Docs at `/docs`"
+    "JSON API (`/inquiry`, `/docs`) available via `uvicorn src.api:app` — see README"
 )
 
 # ── quick-fill examples ────────────────────────────────────────────────────── #
