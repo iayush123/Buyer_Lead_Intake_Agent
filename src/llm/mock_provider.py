@@ -301,6 +301,7 @@ class MockProvider(LLMProvider):
     def _summary(self, p: dict[str, Any], buyer: str) -> str:
         parts = []
         bt = p.get("buyer_type")
+        bt = getattr(bt, "value", bt)  # normalize enum member → plain string ("family", not "BuyerType.family")
         bt_label = "" if bt in (None, "unknown") else f"{bt} buyer"
         beds = f"{p['min_beds']}+ bed " if p.get("min_beds") else ""
         ptype = (p.get("property_type") or "home").lower()
