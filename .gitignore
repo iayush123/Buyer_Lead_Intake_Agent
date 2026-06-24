@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments (never commit these)
+venv/
+.venv/
+env/
+myenv/
+ENV/
+
+# Environment / secrets
+.env
+*.local
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Generated output (runtime artefacts — never commit)
+output/briefs/
+
+# Postgres data volume (if mounted locally)
+pgdata/

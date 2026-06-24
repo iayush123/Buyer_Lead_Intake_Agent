@@ -1,0 +1,47 @@
+# Postgres for the data layer + (optional) the API service.
+# Quick start:
+#   docker compose up -d db
+#   python -m src.data_layer.loader      # load the CSV
+#   MATCHER_BACKEND=postgres python -m src.batch
+#
+# Or run everything (db + api):
+#   docker compose up --build
+version: "3.9"
+
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: agentmira
+      POSTGRES_PASSWORD: agentmira
+      POSTGRES_DB: agentmira
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U agentmira"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  api:
+    build: .
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      LLM_PROVIDER: ${LLM_PROVIDER:-mock}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      MATCHER_BACKEND: postgres
+      DATABASE_URL: postgresql://agentmira:agentmira@db:5432/agentmira
+    ports:
+      - "8000:8000"
+    # Load the CSV, then serve the API.
+    command: >
+      sh -c "python -m src.data_layer.loader &&
+             uvicorn src.api:app --host 0.0.0.0 --port 8000"
+
+volumes:
+  pgdata:

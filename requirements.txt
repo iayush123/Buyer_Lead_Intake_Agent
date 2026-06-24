@@ -1,0 +1,26 @@
+# --- Core agent orchestration ---
+langgraph>=0.2.0
+langchain-core>=0.3.0
+
+# --- Data validation / models ---
+pydantic>=2.6
+
+# --- Data layer (PostgreSQL) ---
+psycopg[binary]>=3.1
+
+# --- LLM providers (optional at runtime; only the one you configure is used) ---
+openai>=1.30
+anthropic>=0.34
+
+# --- Live API layer ---
+fastapi>=0.110
+uvicorn[standard]>=0.29
+
+# --- Streamlit UI ---
+streamlit>=1.35
+
+# --- Config ---
+python-dotenv>=1.0
+
+# --- Tests ---
+pytest>=8.0
