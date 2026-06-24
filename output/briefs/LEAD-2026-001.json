@@ -1,0 +1,150 @@
+{
+  "lead_id": "LEAD-2026-001",
+  "buyer_name": "Marcus Thompson",
+  "generated_at": "2026-06-23T19:05:36+00:00",
+  "buyer_summary": "Marcus Thompson is a relocating buyer looking for a 2+ bed condo in Downtown Miami, Brickell around $700,000. Nice-to-haves: Gym, Balcony. Timeline: By August.",
+  "recommended_properties": [
+    {
+      "listing_id": "MLS-100261",
+      "mls_number": "A28058430",
+      "address": "4759 Hibiscus Drive",
+      "neighborhood": "Downtown Miami",
+      "city": "Miami",
+      "price": 594000,
+      "bedrooms": 3,
+      "bathrooms": 3.0,
+      "sqft": 1992,
+      "property_type": "Condo",
+      "listing_status": "Active",
+      "matched_features": [
+        "Gym"
+      ],
+      "score": 5.0,
+      "fits_in_budget": true,
+      "fits_in_stretch_only": false,
+      "reasons": [
+        "4759 Hibiscus Drive (Downtown Miami) - $594,000, 3BR Condo. Hits: Gym."
+      ],
+      "caveats": [
+        "Does not list: Balcony."
+      ]
+    },
+    {
+      "listing_id": "MLS-100277",
+      "mls_number": "A15140967",
+      "address": "7267 Biscayne Boulevard #725",
+      "neighborhood": "Brickell",
+      "city": "Miami",
+      "price": 648000,
+      "bedrooms": 3,
+      "bathrooms": 2.0,
+      "sqft": 1427,
+      "property_type": "Condo",
+      "listing_status": "Active",
+      "matched_features": [
+        "Gym"
+      ],
+      "score": 5.0,
+      "fits_in_budget": true,
+      "fits_in_stretch_only": false,
+      "reasons": [
+        "7267 Biscayne Boulevard #725 (Brickell) - $648,000, 3BR Condo. Hits: Gym."
+      ],
+      "caveats": [
+        "Does not list: Balcony."
+      ]
+    },
+    {
+      "listing_id": "MLS-100273",
+      "mls_number": "A74819756",
+      "address": "9796 Alhambra Circle",
+      "neighborhood": "Downtown Miami",
+      "city": "Miami",
+      "price": 539000,
+      "bedrooms": 2,
+      "bathrooms": 2.5,
+      "sqft": 1042,
+      "property_type": "Condo",
+      "listing_status": "Active",
+      "matched_features": [],
+      "score": 2.5,
+      "fits_in_budget": true,
+      "fits_in_stretch_only": false,
+      "reasons": [
+        "9796 Alhambra Circle (Downtown Miami) - $539,000, 2BR Condo."
+      ],
+      "caveats": []
+    },
+    {
+      "listing_id": "MLS-100267",
+      "mls_number": "A53302669",
+      "address": "1320 Main Highway",
+      "neighborhood": "Downtown Miami",
+      "city": "Miami",
+      "price": 322000,
+      "bedrooms": 4,
+      "bathrooms": 1.0,
+      "sqft": 2186,
+      "property_type": "Condo",
+      "listing_status": "Pending",
+      "matched_features": [],
+      "score": 1.5,
+      "fits_in_budget": true,
+      "fits_in_stretch_only": false,
+      "reasons": [
+        "1320 Main Highway (Downtown Miami) - $322,000, 4BR Condo. Status is 'Pending', not freely available."
+      ],
+      "caveats": [
+        "Status is 'Pending' - not freely available; confirm it's still in play before showing."
+      ]
+    }
+  ],
+  "things_to_be_aware_of": [
+    "There is no 'City View' feature in this feed (only Ocean/Bay/Waterfront); treat as approximate.",
+    "1 of 4 recommendations are 'Pending' / 'Active Under Contract' - flagged per-property; they may fall through but aren't freely available.",
+    "4759 Hibiscus Drive: Does not list: Balcony.",
+    "7267 Biscayne Boulevard #725: Does not list: Balcony.",
+    "1320 Main Highway: Status is 'Pending' - not freely available; confirm it's still in play before showing."
+  ],
+  "suggested_next_action": "Call Marcus Thompson within 24h to confirm priorities and schedule showings for the top 4 matches; flag any 'Pending'/'Under Contract' status first.",
+  "confidence": "medium",
+  "confidence_notes": [
+    "Buyer has wants not in the MLS feed (e.g. city view); verify manually."
+  ],
+  "security_flag": {
+    "triggered": false,
+    "category": null,
+    "detail": null,
+    "sanitized_message_preview": null
+  },
+  "buyer_profile": {
+    "locations": [
+      "Downtown Miami",
+      "Brickell"
+    ],
+    "budget": 700000,
+    "stretch_budget": null,
+    "min_beds": 2,
+    "min_baths": null,
+    "property_type": "Condo",
+    "hard_must_haves": [],
+    "soft_nice_to_haves": [
+      "Gym",
+      "Balcony"
+    ],
+    "timeline": "By August",
+    "buyer_type": "relocating",
+    "is_cash_buyer": null,
+    "special_needs": [
+      "city view"
+    ],
+    "emotional_context": null,
+    "is_too_vague_to_match": false,
+    "requires_human_judgment": false,
+    "human_judgment_reason": null,
+    "referenced_address": null,
+    "extraction_notes": [
+      "There is no 'City View' feature in this feed (only Ocean/Bay/Waterfront); treat as approximate."
+    ]
+  }
+}

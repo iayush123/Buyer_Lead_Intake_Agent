@@ -1,0 +1,52 @@
+{
+  "lead_id": "LEAD-2026-008",
+  "buyer_name": "Jennifer Walsh",
+  "generated_at": "2026-06-23T19:05:37+00:00",
+  "buyer_summary": "Jennifer Walsh is a family buyer looking for a 4+ bed single family in Coral Gables, Coconut Grove around $1,400,000. Nice-to-haves: Pool, Home Office. Context: Relocation driven by lifestyle; warm/relationship-oriented tone; long, chatty message with lots of personal/family context (in research mode).",
+  "recommended_properties": [],
+  "things_to_be_aware_of": [
+    "School quality is not in the MLS feed; verify against GreatSchools/district data.",
+    "Budget appears below market: lowest listing for Coral Gables, Coconut Grove / 4+ beds / Single Family is $1,762,000, above the stated budget of $1,400,000. The buyer likely needs to adjust expectations or budget."
+  ],
+  "suggested_next_action": "Call Jennifer Walsh to recalibrate budget/criteria; set up a saved search + alert so they're notified the moment matching inventory comes on.",
+  "confidence": "low",
+  "confidence_notes": [
+    "No inventory matched the hard constraints."
+  ],
+  "security_flag": {
+    "triggered": false,
+    "category": null,
+    "detail": null,
+    "sanitized_message_preview": null
+  },
+  "buyer_profile": {
+    "locations": [
+      "Coral Gables",
+      "Coconut Grove"
+    ],
+    "budget": 1400000,
+    "stretch_budget": null,
+    "min_beds": 4,
+    "min_baths": null,
+    "property_type": "Single Family",
+    "hard_must_haves": [],
+    "soft_nice_to_haves": [
+      "Pool",
+      "Home Office"
+    ],
+    "timeline": null,
+    "buyer_type": "family",
+    "is_cash_buyer": null,
+    "special_needs": [
+      "schools matter"
+    ],
+    "emotional_context": "Relocation driven by lifestyle; warm/relationship-oriented tone; long, chatty message with lots of personal/family context (in research mode)",
+    "is_too_vague_to_match": false,
+    "requires_human_judgment": false,
+    "human_judgment_reason": null,
+    "referenced_address": null,
+    "extraction_notes": [
+      "School quality is not in the MLS feed; verify against GreatSchools/district data."
+    ]
+  }
+}

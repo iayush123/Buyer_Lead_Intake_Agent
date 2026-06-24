@@ -1,0 +1,48 @@
+{
+  "lead_id": "LEAD-2026-003",
+  "buyer_name": "Anonymous (form not filled)",
+  "generated_at": "2026-06-23T19:05:36+00:00",
+  "buyer_summary": "Anonymous (form not filled) is looking for a 4+ bed home in Downtown Miami, Brickell around $250,000. Hard must-haves: Pool. Nice-to-haves: Ocean View. Timeline: This week (urgent).",
+  "recommended_properties": [],
+  "things_to_be_aware_of": [
+    "Budget appears below market: lowest listing for Downtown Miami, Brickell / 4+ beds is $749,000, above the stated budget of $250,000. The buyer likely needs to adjust expectations or budget."
+  ],
+  "suggested_next_action": "Call Anonymous (form not filled) to recalibrate budget/criteria; set up a saved search + alert so they're notified the moment matching inventory comes on.",
+  "confidence": "low",
+  "confidence_notes": [
+    "No inventory matched the hard constraints."
+  ],
+  "security_flag": {
+    "triggered": false,
+    "category": null,
+    "detail": null,
+    "sanitized_message_preview": null
+  },
+  "buyer_profile": {
+    "locations": [
+      "Downtown Miami",
+      "Brickell"
+    ],
+    "budget": 250000,
+    "stretch_budget": null,
+    "min_beds": 4,
+    "min_baths": null,
+    "property_type": null,
+    "hard_must_haves": [
+      "Pool"
+    ],
+    "soft_nice_to_haves": [
+      "Ocean View"
+    ],
+    "timeline": "This week (urgent)",
+    "buyer_type": "unknown",
+    "is_cash_buyer": null,
+    "special_needs": [],
+    "emotional_context": null,
+    "is_too_vague_to_match": false,
+    "requires_human_judgment": false,
+    "human_judgment_reason": null,
+    "referenced_address": null,
+    "extraction_notes": []
+  }
+}

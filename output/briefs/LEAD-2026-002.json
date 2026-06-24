@@ -1,0 +1,74 @@
+{
+  "lead_id": "LEAD-2026-002",
+  "buyer_name": "Patricia and David Chen",
+  "generated_at": "2026-06-23T19:05:36+00:00",
+  "buyer_summary": "Patricia and David Chen is a family buyer looking for a 4+ bed home in Coral Gables, Pinecrest around $2,000,000. Hard must-haves: Pool. Timeline: Flexible.",
+  "recommended_properties": [
+    {
+      "listing_id": "MLS-100298",
+      "mls_number": "A80610004",
+      "address": "2470 Ponce de Leon Boulevard",
+      "neighborhood": "Coral Gables",
+      "city": "Miami",
+      "price": 1458000,
+      "bedrooms": 4,
+      "bathrooms": 5.0,
+      "sqft": 2769,
+      "property_type": "Villa",
+      "listing_status": "Active",
+      "matched_features": [
+        "Pool"
+      ],
+      "score": 3.5,
+      "fits_in_budget": true,
+      "fits_in_stretch_only": false,
+      "reasons": [
+        "2470 Ponce de Leon Boulevard (Coral Gables) - $1,458,000, 4BR Villa. Hits: Pool."
+      ],
+      "caveats": []
+    }
+  ],
+  "things_to_be_aware_of": [
+    "School assignment is not in the MLS feed; confirm zoning with the district."
+  ],
+  "suggested_next_action": "Call Patricia and David Chen within 24h to confirm priorities and schedule showings for the top 1 match; flag any 'Pending'/'Under Contract' status first.",
+  "confidence": "medium",
+  "confidence_notes": [
+    "Buyer has wants not in the MLS feed (e.g. elementary school); verify manually."
+  ],
+  "security_flag": {
+    "triggered": false,
+    "category": null,
+    "detail": null,
+    "sanitized_message_preview": null
+  },
+  "buyer_profile": {
+    "locations": [
+      "Coral Gables",
+      "Pinecrest"
+    ],
+    "budget": 2000000,
+    "stretch_budget": 2300000,
+    "min_beds": 4,
+    "min_baths": null,
+    "property_type": null,
+    "hard_must_haves": [
+      "Pool"
+    ],
+    "soft_nice_to_haves": [],
+    "timeline": "Flexible",
+    "buyer_type": "family",
+    "is_cash_buyer": null,
+    "special_needs": [
+      "elementary school"
+    ],
+    "emotional_context": null,
+    "is_too_vague_to_match": false,
+    "requires_human_judgment": false,
+    "human_judgment_reason": null,
+    "referenced_address": null,
+    "extraction_notes": [
+      "School assignment is not in the MLS feed; confirm zoning with the district."
+    ]
+  }
+}

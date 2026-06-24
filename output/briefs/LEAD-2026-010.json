@@ -1,0 +1,121 @@
+{
+  "lead_id": "LEAD-2026-010",
+  "buyer_name": "Karen O'Brien",
+  "generated_at": "2026-06-23T19:05:37+00:00",
+  "buyer_summary": "Karen O'Brien is looking for a 5+ bed home in Key Biscayne, Bal Harbour around $8,000,000. Hard must-haves: Boat Dock. Nice-to-haves: Waterfront. Timeline: Before year-end.",
+  "recommended_properties": [
+    {
+      "listing_id": "MLS-100007",
+      "mls_number": "A10022778",
+      "address": "6707 NW 41st Street",
+      "neighborhood": "Bal Harbour",
+      "city": "Miami",
+      "price": 6625000,
+      "bedrooms": 5,
+      "bathrooms": 3.5,
+      "sqft": 3900,
+      "property_type": "Single Family",
+      "listing_status": "Active",
+      "matched_features": [
+        "Boat Dock"
+      ],
+      "score": 3.5,
+      "fits_in_budget": true,
+      "fits_in_stretch_only": false,
+      "reasons": [
+        "6707 NW 41st Street (Bal Harbour) - $6,625,000, 5BR Single Family. Hits: Boat Dock."
+      ],
+      "caveats": []
+    },
+    {
+      "listing_id": "MLS-100170",
+      "mls_number": "A91883846",
+      "address": "9231 West Avenue",
+      "neighborhood": "Bal Harbour",
+      "city": "Miami",
+      "price": 6707000,
+      "bedrooms": 5,
+      "bathrooms": 2.0,
+      "sqft": 3458,
+      "property_type": "Single Family",
+      "listing_status": "Active",
+      "matched_features": [
+        "Boat Dock"
+      ],
+      "score": 3.5,
+      "fits_in_budget": true,
+      "fits_in_stretch_only": false,
+      "reasons": [
+        "9231 West Avenue (Bal Harbour) - $6,707,000, 5BR Single Family. Hits: Boat Dock."
+      ],
+      "caveats": []
+    },
+    {
+      "listing_id": "MLS-100158",
+      "mls_number": "A63098035",
+      "address": "6733 Washington Avenue",
+      "neighborhood": "Key Biscayne",
+      "city": "Miami",
+      "price": 5818000,
+      "bedrooms": 5,
+      "bathrooms": 4.5,
+      "sqft": 3528,
+      "property_type": "Villa",
+      "listing_status": "Active Under Contract",
+      "matched_features": [
+        "Boat Dock"
+      ],
+      "score": 2.5,
+      "fits_in_budget": true,
+      "fits_in_stretch_only": false,
+      "reasons": [
+        "6733 Washington Avenue (Key Biscayne) - $5,818,000, 5BR Villa. Hits: Boat Dock. Status is 'Active Under Contract', not freely available."
+      ],
+      "caveats": [
+        "Status is 'Active Under Contract' - not freely available; confirm it's still in play before showing."
+      ]
+    }
+  ],
+  "things_to_be_aware_of": [
+    "1 of 3 recommendations are 'Pending' / 'Active Under Contract' - flagged per-property; they may fall through but aren't freely available.",
+    "6733 Washington Avenue: Status is 'Active Under Contract' - not freely available; confirm it's still in play before showing."
+  ],
+  "suggested_next_action": "Call Karen O'Brien within 24h to confirm priorities and schedule showings for the top 3 matches; flag any 'Pending'/'Under Contract' status first.",
+  "confidence": "medium",
+  "confidence_notes": [
+    "Reasonable matches with minor caveats."
+  ],
+  "security_flag": {
+    "triggered": false,
+    "category": null,
+    "detail": null,
+    "sanitized_message_preview": null
+  },
+  "buyer_profile": {
+    "locations": [
+      "Key Biscayne",
+      "Bal Harbour"
+    ],
+    "budget": 8000000,
+    "stretch_budget": null,
+    "min_beds": 5,
+    "min_baths": null,
+    "property_type": null,
+    "hard_must_haves": [
+      "Boat Dock"
+    ],
+    "soft_nice_to_haves": [
+      "Waterfront"
+    ],
+    "timeline": "Before year-end",
+    "buyer_type": "unknown",
+    "is_cash_buyer": null,
+    "special_needs": [],
+    "emotional_context": null,
+    "is_too_vague_to_match": false,
+    "requires_human_judgment": false,
+    "human_judgment_reason": null,
+    "referenced_address": null,
+    "extraction_notes": []
+  }
+}

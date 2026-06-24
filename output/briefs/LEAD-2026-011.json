@@ -1,0 +1,50 @@
+{
+  "lead_id": "LEAD-2026-011",
+  "buyer_name": "Priya Sharma",
+  "generated_at": "2026-06-23T19:05:37+00:00",
+  "buyer_summary": "Priya Sharma is a first-timer buyer looking for a 1+ bed condo in the Miami area (location open) around $400,000. Hard must-haves: Pet Friendly. Context: Expresses nervousness about the process (reassurance will help).",
+  "recommended_properties": [],
+  "things_to_be_aware_of": [
+    "Buyer says they're open on neighborhood (mentioned Wynwood for commute) - not hard-filtering on location.",
+    "Commute time is not in the MLS feed; verify drive time to the buyer's work location.",
+    "Budget appears below market: lowest listing for 1+ beds / Condo is $420,000, above the stated budget of $400,000. The buyer likely needs to adjust expectations or budget."
+  ],
+  "suggested_next_action": "Call Priya Sharma to recalibrate budget/criteria; set up a saved search + alert so they're notified the moment matching inventory comes on.",
+  "confidence": "low",
+  "confidence_notes": [
+    "No inventory matched the hard constraints."
+  ],
+  "security_flag": {
+    "triggered": false,
+    "category": null,
+    "detail": null,
+    "sanitized_message_preview": null
+  },
+  "buyer_profile": {
+    "locations": [],
+    "budget": 400000,
+    "stretch_budget": null,
+    "min_beds": 1,
+    "min_baths": null,
+    "property_type": "Condo",
+    "hard_must_haves": [
+      "Pet Friendly"
+    ],
+    "soft_nice_to_haves": [],
+    "timeline": null,
+    "buyer_type": "first-timer",
+    "is_cash_buyer": null,
+    "special_needs": [
+      "commute"
+    ],
+    "emotional_context": "Expresses nervousness about the process (reassurance will help)",
+    "is_too_vague_to_match": false,
+    "requires_human_judgment": false,
+    "human_judgment_reason": null,
+    "referenced_address": null,
+    "extraction_notes": [
+      "Buyer says they're open on neighborhood (mentioned Wynwood for commute) - not hard-filtering on location.",
+      "Commute time is not in the MLS feed; verify drive time to the buyer's work location."
+    ]
+  }
+}
